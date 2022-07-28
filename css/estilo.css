@@ -50,6 +50,7 @@ nav{
       background: url(../img/index/bg-features.png);
       color: white;
       padding-top: 1rem;
+      background-size:cover;
 }
 
 .features-title{
@@ -57,6 +58,7 @@ nav{
       text-align: center;
       padding: 0.5rem;
       font-size: 1.5rem;
+      font-family: 'Marcellus', serif
 }.features-description{
       display: flex;
       flex-flow: row wrap;
@@ -71,14 +73,14 @@ nav{
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border-radius: 5px;
+      border-radius:3px;
 }.feature i{
       font-size: 2.2rem;
       margin-bottom: 1.5rem;
 }.feature-blue{
-      background-color: rgba(9, 53, 104, 0.493);
+      background-color: rgba(9, 53, 104, 0.6);
 }.feature-black{
-      background-color: rgba(0, 0, 0, 0.699);
+      background-color:  rgba(0, 0, 0,0.6);
 }.logo{
       background-color: #333333;
       display: flex;
@@ -116,7 +118,8 @@ nav{
 }.text-log{
       margin: 2.5em;
       display: flex;
-      justify-content: space-around;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
       align-items: center;
 }#hijo1{
       font-size: 1.1em;
@@ -177,11 +180,12 @@ nav{
 }.carrusel img{
       border-radius: 50%;
 }#op{
-      display: flex;
-      flex-direction: column;
+      display: flex; 
+    
+      flex-direction:column;
       background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
       color:var(--blanco);
-      width: 25%;
+      width: 30%;
       
 
 }.nombre{
