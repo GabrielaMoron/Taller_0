@@ -11,7 +11,7 @@
   --verdeazul: #157A8A;
   --Magenta: #9C2759;
   --blanco: #fff;
-  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, 3 80.34%);
 }
  
 *{
@@ -45,7 +45,10 @@ nav{
 }.logo img{
       height: 3rem;     
 }
-
+nav a:hover{
+     background-color: #104a7c;
+     width: 100%;
+}
 
 #razones{
       background: url(../img/index/bg-features.png);
