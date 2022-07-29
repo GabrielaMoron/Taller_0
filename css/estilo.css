@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display & family= Playfair+Display+SC & display=swap');
 :root{
   --azulclaro: #48D6ED;
   --azuloscuro: #337AB7;
@@ -46,41 +47,44 @@ nav{
 }
 
 
-#features{
+#razones{
       background: url(../img/index/bg-features.png);
       color: white;
       padding-top: 1rem;
       background-size:cover;
 }
 
-.features-title{
+
+.razones-tit{
       background-color: rgba(0, 0, 0, 0.342);
+      letter-spacing: 0.1rem;
       text-align: center;
-      padding: 0.5rem;
-      font-size: 1.5rem;
-      font-family: 'Marcellus', serif
-}.features-description{
+      padding: 1rem;
+      font-size: 2rem;
+    
+}.razones-des{
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
-}.feature{
-      width: 25%;
+}.razones{
+      width: 100%;
       min-width: 180px;
-      max-width: 230px;
+      max-width: 180px;
       margin: 0.8rem;
       padding: 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border-radius:3px;
-}.feature i{
+      border-radius: 2px;
+      font-family:'roboto',sans-serif;
+}.razones i{
       font-size: 2.2rem;
       margin-bottom: 1.5rem;
-}.feature-blue{
-      background-color: rgba(9, 53, 104, 0.6);
-}.feature-black{
-      background-color:  rgba(0, 0, 0,0.6);
+}.razones-blue{
+      background-color: rgba(9, 53, 104, 0.562);
+}.razones-black{
+      background-color: rgba(0, 0, 0, 0.699);
 }.logo{
       background-color: #333333;
       display: flex;
@@ -90,63 +94,63 @@ nav{
 }.slider img{
       width: 100%;
       height: 100%;
-}.contenido{
+}.container{
       width: 100%;
       height: 100%;
       overflow: hidden;
       position: relative;
-}#textosl p{
+}#parrafofoto p{
       position: absolute;
-      top: 64%;
-      font-family: 'Marcellus', serif;
+      top: 78%;
+      font-family: 'roboto',sans-serif ;
       font-size: 3rem;
-      background-color: rgba(29, 21, 21, 0.158);
+      background-color:rgba(19, 17, 17, 0.349);
       color: white;
       width: 100%;
-      height: 180px;
+      height: 150px;
       display: flex;
       justify-content: space-between;
+      padding-left: 1em;
       align-items: center;
       flex-flow: row wrap;
-
-}.informacion{
+ 
+}.textogrande{
       width: 100%;
-      height: 100%;  
+      height: 100%; 
       display: flex;
-      justify-content: space-around;  
-
-}.text-log{
+      justify-content: space-around; 
+  
+ }.espacio-log{
       margin: 2.5em;
       display: flex;
-      flex-wrap:wrap;
-      justify-content: space-evenly;
+      justify-content: space-around;
       align-items: center;
-}#hijo1{
+ }#num1{
       font-size: 1.1em;
       width: 45%;
-}#hijo img{
+ }#num img{
       width: 65%;
       height: 65%;
-}#hijo{     
+ }#num{    
       display: flex;
       justify-content: center;
-}.tit h1{
+ }.textotitulo h1{
       display: flex;
       justify-content: center;
       margin-top: 3%;
       font-size: 3em;
-}.mapa {
+ }.maps {
       display: flex;
       justify-content: center;
       padding: 1rem;
-}.mapa iframe{
+ }.maps iframe{
       width: 100%;
-}.inf h3{
-
+ }.informacion h3{
+  
       font-size: 1.5em;
       display: flex;
       justify-content: center;
-}.linea{
+ }.linea{
       display: flex;
       justify-content: center;
       margin-left: 25%;
@@ -154,87 +158,102 @@ nav{
       background-color: #337AB7;
       width: 50%;
       height: 0.1em;
-      
-}.inf{
+     
+ }.informacion{
       padding: 2em;
- }.titulo{
-      display: flex;
-      justify-content: center;
-      background-color: var(--negro);
-      align-items: center;
-      color: white;
-      height: 7em;
-      font-size: 2em;
  }.titulo h1{
       margin-bottom: 2%;
- }.opiniones{
-      height:20em ;
-
- }.carrusel {
-      display: flex;
+ }.carrusel{
+     display: flex;
      justify-content: space-around;
      width: 100%;
-     position: absolute;
-     margin-top: -2%;
-
+     flex-wrap:wrap;
+    color: white;
 }.carrusel img{
-      border-radius: 50%;
-}#op{
-      display: flex; 
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
     
-      flex-direction:column;
-      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
-      color:var(--blanco);
-      width: 30%;
-      
+}.ip{
+     height: 100%;
+}.icons p{
+     margin-left: 2%;
+}#co img{
+     width: 16%;
+     height: 3.5em;
+}.mp{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-start;
+     background: url(/img/index/cara6.jpg);
+     background-size: cover;
+ 
+}.titulo{
+     font-size: 1.6em;
+     display: flex;
+     justify-content: center;
+     background-color: var(--negro);
+     align-items: center;
+     color: white;
+     height: 7em;
+    
+}.ip{
+     position: relative;
+     display: flex;
+     align-items: center;
+     padding: 3%;
+     height: 7rem;
+}#co{
+     margin-top: -3%;
+   margin-bottom: 3%;
+   height: 100%;
+   width: 23em;
+   background: linear-gradient(49.54deg, #337AB7 6%, #0B3860 90.34%);
+}.mp img{
+     padding: 2%;
+}.puntos{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 3%;
+}
 
-}.nombre{
-      background-image: url(/img/Group\ 200.svg);
-      background-size: cover;
-}.desc{
-      background: transparent;
-      
-         
-
-}.footer-container{
+.footer-container{
       background-color: var(--negro);
       color: white;
       padding: 2%;
-}
-.footer-container .text-footer{
+ }
+ .footer-container .text-footer{
       display: flex;
       justify-content: space-around;
+      align-items: center;
       font-size: 1.2em;
-      align-items: baseline;
-      height: 9rem;
-      
-}
-.text.t{
+      height: 100%;
+      width: 100%;
+ }
+ .text.t{
       width: 25%;
-
-      
-}.icons{
+  
+     
+ }.icon{
       display: flex;
       flex-wrap: nowrap;
       flex-direction: column;
-      
-      
-}.icons div{
+     
+     
+ }.icon div{
       display:flex;
       padding: 2%;
-      
-}.text t3 {
+     
+ }.text t3 {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
       padding: 2%;
-      
-      
-}#separador{
+     
+     
+ }#separador{
       margin-top: 21%;
-}.red{
-      display: flex;
-      justify-content: space-between;
-      width: 50%;
-}
+ }
