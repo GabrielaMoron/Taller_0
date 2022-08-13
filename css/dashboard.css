@@ -151,7 +151,7 @@ i#iconS{
 
 .informacion{
     height: 100vh;
- 
+    background-image: url(../img/fondodashboard2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -188,8 +188,8 @@ i#iconS{
 .foto img{
     border-radius: 5%;
     margin-bottom: 5%;
-    width: 9em;
-    height: 8em;
+    width: 61%;
+    height: 10em;
 }
 
 
@@ -332,9 +332,9 @@ i#iconS{
 }
 
 
-/********/
 
-@media screen and (max-width: 1072px){
+
+@media screen and (min-width: 300px)and (max-width: 780px){
     .logo .desktop{
         display: none;
     }
@@ -541,7 +541,7 @@ i#iconS{
 }
 
 
-@media screen and (min-width: 1073px) and (max-width: 1300px) {
+@media screen and (min-width: 780px) and (max-width: 1024px)  {
     .descripcion img{
         display: flex;
     }
@@ -572,17 +572,4 @@ i#iconS{
     .iconos {
         display: none;
     }
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    .contenido{
-        width: 8%;
-        height: 9%;
-        margin-left: 17%;
-        border-radius: 1%;
-        background-color: rgba(255, 255, 255, 0.74);
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
 }
